@@ -1,0 +1,44 @@
+body {
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: rgb(0, 145, 255);
+    margin-top: 200px;
+    position: relative;
+    text-align: center;
+    top: 500xp;
+}
+button {
+    width: 280px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+
+    color: lightblue;
+    font-size: 50px;
+    font-weight: 700;
+
+    border: 3px solid transparent;
+    border-radius: 20px;
+
+    background-image:
+        linear-gradient(black, black),
+        linear-gradient(to right, rgb(0, 150, 255), lightblue);
+    
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+}
+button:hover {
+    background-image:
+        linear-gradient(rgb(0, 150, 255), lightblue),
+        linear-gradient(to right, white, grey);
+        color: black;     
+}
+button:active {
+  background-image:
+      linear-gradient(lightblue, lightblue),
+      linear-gradient(to right, white, grey);
+  color: black;
+}
+        
